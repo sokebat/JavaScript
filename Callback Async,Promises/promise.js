@@ -15,7 +15,7 @@ promiseOne.then(() => {
 
 )
 
-// creating promise without sotorin in variable
+// creating promise without sotoring in variable
 new Promise((resolve, reject) => {
     // do async task
     // DB call,cryptography,network
@@ -32,13 +32,14 @@ new Promise((resolve, reject) => {
 
 const promiseThree = new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve({ username: "hello", email: "hello@hello.com" })
+        resolve({ username: "hello", email: "hello@hell.com" })
     }, 1000)
 })
 
 promiseThree.then((user) => {
     console.log(user);
 })
+
 const promiseFour = new Promise((resolve, reject) => {
     setTimeout(() => {
         let error = true
