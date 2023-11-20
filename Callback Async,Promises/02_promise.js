@@ -1,7 +1,8 @@
 /*
-// const cart =[" shoes","pants","shirts",]
-// createOrder(cart); //this api takes the cart items and returns order details or orderId
-// proccedToPayment(orderId) // takes order Id and processed to payment
+scenerio:
+const cart =[" shoes","pants","shirts",]
+createOrder(cart); //this api takes the cart items and returns order details or orderId
+proccedToPayment(orderId) // takes order Id and processed to payment
 
 //creating calbacks on above scenerio!!
 const cart = [" shoes", "pants", "shirts",]
@@ -11,7 +12,7 @@ createOrder(cart,function () {
 
 */
 
-// create promise
+// create promise ---> it is an object representing the eventual completion or failure of an async operation
 
 // const promise = createOrder(cart) //promise is a object initailly {data: undefine} after some time {data:orderDetails}
 // promise.then(function () {
@@ -23,12 +24,12 @@ createOrder(cart,function () {
 //     proccedToPayment(orderId)
 // })
 
-// const GitHub_API ="https://api.githun.com/users/sokebat"
+// const GitHub_API ="https://api.github.com/users/sokebat"
 // const user =fetch(GitHub_API)
-// console.log(user)
+// console.log(user) // it executes right after line 28 gives pending
 
 // user.then(function(data){
-//     console.log(data)
+//     console.log(data) //
 // })
 
 /*

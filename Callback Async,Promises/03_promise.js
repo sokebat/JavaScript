@@ -1,4 +1,6 @@
 const cart = ["shoes", "pants", "kurtha"]
+
+//consuming the promise
 createOrder(cart) //orderId
     .then(function (orderId) {
         console.log(
@@ -31,6 +33,7 @@ createOrder(cart) //orderId
 //     console.log(err.message);
 // })
 
+// creating a promise
 function createOrder(cart) {
     const pr = new Promise(function (resolve, reject) {
         //logic to create an order
