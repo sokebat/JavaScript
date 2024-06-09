@@ -49,5 +49,5 @@ to many internal call of function there exixt callback hell
 //callbacks
 // 1) powerfull way to handel async operation in JS-async JS is exist because of callbacks
 //2) Issue with callbacks
-//  a. callback hell- lot of nested callbacks
-//  b.inversion of control-lossing control over the code
+//  a. callback hell-> lot of nested callbacks
+//  b.inversion of control->lossing control over the code
